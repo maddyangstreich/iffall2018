@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  background-color: #004241;
+  color: #E42820;
+  margin-top:-40px;
+
+}
+
+h3{
+  margin-top: 400px;
+  text-transform: uppercase;
+  margin-bottom: -400px;
+  letter-spacing: 3px;
+  margin-left: -35px
+
+}
+h1 {
+  color: #E42820;
+  font-size: 280pt;
+
+}
+
+#name{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 40px;
+  color:#DF554F;
+  font-weight: bold;: 
+}
+
+ul{
+  margin-left: -40px;
+  font-size: 30px;
+  color: #FCF5E7;
+}
