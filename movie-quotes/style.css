@@ -1,0 +1,26 @@
+body {
+  font-family: "Work Sans" ;
+  line-height: 1.8em;
+  background-color: #2D2D2D;
+  color: white;
+  font-size: .8em;
+  letter-spacing: .1em;
+  margin: 50px;
+}
+
+
+ul{
+}
+
+b {
+  color: #66FFBA;
+}
+
+.setting {
+  color: #737373;
+}
+
+.demon {
+  font-style: italic;
+  color: #FF6D49;
+}
