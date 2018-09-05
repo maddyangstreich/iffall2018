@@ -3,6 +3,7 @@ body{
   background-color: #004241;
   color: #E42820;
   margin-top:-40px;
+  font-family:"Ibm Plex Sans", sans-serif;
 
 }
 
@@ -17,6 +18,7 @@ h3{
 h1 {
   color: #E42820;
   font-size: 280pt;
+  font-weight: bolder;
 
 }
 
@@ -26,7 +28,7 @@ h1 {
   font-size: 20px;
   line-height: 40px;
   color:#DF554F;
-  font-weight: bold;: 
+  font-weight: bold;:
 }
 
 ul{
