@@ -4,24 +4,21 @@ body{
   color: #E42820;
   margin-top:-40px;
   font-family:"Ibm Plex Sans", sans-serif;
-
 }
 
-h3{
-  margin-top: 350px;
-  text-transform: uppercase;
-  margin-bottom: -400px;
-  letter-spacing: 3px;
-  margin-left: -35px
 
-}
 h1 {
   color: #E42820;
   font-size: 280pt;
   font-weight: bolder;
-
 }
 
+h3{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: #DF554F
+}
 #name{
   text-transform: uppercase;
   letter-spacing: 3px;
