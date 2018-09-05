@@ -9,7 +9,17 @@ body {
 }
 
 
-ul{
+h1:hover{
+  color:red;
+}
+
+li:hover{
+  color: #FFCFC3;
+}
+
+li{
+  list-style: none;
+  margin-left: 50px
 }
 
 b {
