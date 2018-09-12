@@ -1,0 +1,126 @@
+body{
+  margin: 50px;
+  font-family: 'Merriweather', serif;
+  font-weight: light;
+  padding-left: 30px;
+  background-color: white;
+  color: black;
+  overflow: auto;
+
+
+}
+
+.column{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  padding-right: 40px;
+}
+
+hr{
+  color:black;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #4071ED;
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+h1{
+  font-weight: 900;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+h2{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
+
+}
+
+h6 {
+  font-size: 12px;
+  font-family: "Merriweather Sans";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom:-8px;
+  color: blue;
+}
+
+li{
+  margin-left:-20px;
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+p {
+  line-height: 1.7em;
+  font-size: 16px;
+}
+
+ #light {
+   font-weight: 100;
+ }
+
+ #regular {
+   font-weight: 500;
+ }
+
+#bold {
+  font-weight: 1000;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#low-spacing{
+  letter-spacing: .001em;
+}
+
+#med-spacing {
+  letter-spacing: 2px;
+}
+
+#high-spacing {
+  letter-spacing: 5px;
+}
+
+#caps {
+  text-transform: capitalize;
+}
+
+#upper {
+  text-transform: uppercase;
+}
+
+#lower{
+  text-transform: lowercase;
+}
+
+#underline{
+  text-decoration: underline;
+}
+
+#strikethrough{
+  text-decoration: line-through;
+}
+
+#overline{
+  text-decoration: overline;
+}
+
+#sticky{
+  position: sticky;
+  top:50px;
+}
