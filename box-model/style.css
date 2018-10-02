@@ -1,0 +1,181 @@
+body{
+  font-family: "Archivo Narrow";
+  color: white;
+
+}
+
+
+header {
+  display: block;
+  position: relative;
+  color: white;
+	text-align: center;
+	height:480px;
+	margin-top: 0;
+	background-position: center;
+  background-size: cover;
+  background-image: url("https://i.redd.it/7uey9ztirc9y.png");
+
+}
+
+header h1 {
+  display: block;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left:-5px;
+  font-size: 80px;
+  font-weight:bold;
+  padding-top: 163px;
+  letter-spacing: 1.5px;
+
+}
+
+header h2 {
+  display: block;
+  margin-top:-8px;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  letter-spacing: .9px;
+}
+
+section{
+  position: relative;
+  display: block;
+}
+
+.section1 {
+  padding-top: 32px;
+  padding-bottom: 35px;
+  display: block;
+  background-color: #856491;
+
+}
+
+.content {
+
+  width: 1000px;
+  margin: auto;
+  padding-left: 39px;
+
+}
+
+.section1 h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 0px;
+  padding-top: 12px;
+  letter-spacing: 1.3px;
+  padding-bottom: 3px
+}
+
+.section1 p {
+  color: white;
+  font-size: 18px;
+  margin-top: 0px;
+  line-height: 25px;
+}
+
+#darth {
+  float: right;
+  width: 400px;
+  height: 300px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 2px;
+  padding-bottom: 20px
+
+}
+
+.section2 {
+  background-color: #CEA7C7;
+  height: 624px;
+  padding-bottom: 62px;
+
+}
+
+.section2 h1 {
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 45px;
+  letter-spacing: 1.3px;
+  padding-bottom: 3px
+}
+
+.section2 .content{
+  margin-top: -30px;
+}
+.column {
+  width: 480px;
+  float: left;
+  display: inline-block;
+}
+
+.column img {
+  margin-left: -10px;
+  margin-bottom: 20px;
+  padding-right: 12px;
+  display: block;
+  float: left;
+  padding-left: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+div.little-boxes {
+  margin-bottom: 10px;
+  display: block;
+  width: 480px;
+  height: 150px;
+}
+
+.little-boxes p{
+  line-height: 25px;
+  font-size: 18px
+}
+
+.little-boxes h4{
+  font-size: 21px;
+  letter-spacing: .3px;
+  font-weight: bolder;
+}
+.section3{
+  background-color: #4F3957;
+  padding-bottom: 62px;
+}
+
+.section3 h1 {
+  margin-top: 0px;
+  padding-top: 47px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 1.3px;
+}
+
+.section3 p{
+  text-align: center;
+  font-size: 25px;
+  width: 719px;
+  margin: auto;
+  padding-top: 5px;
+  line-height: 35px;
+  padding-bottom: 35px;
+}
+
+#footer {
+  background-color: white;
+  color: black;
+  margin: auto;
+  font-size: 18px;
+  padding-top: 45px;
+  padding-right: 6px;
+  height: 50px;
+}
