@@ -1,0 +1,730 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons &mdash; Maddy Angstreich</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel='stylesheet' type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+      a#btn_ideo{
+        display: inline-block;
+        margin-top: 80px;
+        font-family: "Roboto Mono";
+        font-weight: bold;
+        letter-spacing: 4px;
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        border-radius: 4px;
+        background-color: black;
+        border: none;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        transition: all 0.5s
+      }
+
+      a#btn_ideo span{
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      a#btn_ideo span:after {
+        content: '\203A';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        color: white;
+
+      }
+
+      a#btn_ideo:hover span {
+        padding-right: 25px;
+      }
+
+      a#btn_ideo:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+      a#btn_sardella {
+        display: inline-block;
+        color: blue;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 30px;
+        background: none;
+        box-sizing: border-box;
+        margin: 1em;
+        padding: .5em 1em;
+        position: relative;
+        vertical-align: middle;
+        transition: all 0.6s;
+        margin-top: 90px;
+        border-radius: 50px;
+
+
+      }
+
+        a#btn_sardella:hover{
+          background-color: #1865FF;
+          color: white;
+
+        }
+
+
+
+  *::before, *::after {
+    box-sizing: border-box;
+  }
+
+
+
+  button {
+    font-family: "Roboto Mono";
+    font-size: 15px;
+    letter-spacing: .5px;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+
+  }
+  button.electrabike{
+    width: 12rem;
+    height: auto;
+  }
+  button.electrabike .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #5FE698;
+    border-radius: 1.625rem;
+  }
+  button.electrabike .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+  }
+  button.electrabike .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+  }
+  button.electrabike .circle .icon.arrow::before {
+    position: absolute;
+    content: '';
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  button.electrabike .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #5FE698;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+  button:hover .circle {
+    width: 100%;
+  }
+  button:hover .circle .icon.arrow {
+    background: #fff;
+    -webkit-transform: translate(1rem, 0);
+            transform: translate(1rem, 0);
+  }
+
+
+  button:hover .button-text {
+    color: #fff;
+		-ms-transform: skewX(-15deg); /* IE 9 */
+	-webkit-transform: skewX(-15deg); /* Safari */
+	transform: skewX(-15deg);
+
+  }
+
+
+
+  a#btn_colorrun {
+    font-family: "Roboto Mono";
+    font-size: 20px;
+		position: relative;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 11px 40px 0 40px;
+    background-image: linear-gradient(to right, #900CFF, #FF34E9);
+		outline: none;
+ 		border-radius: 50px;
+ 		display: inline-block;
+ 		color: #fff;
+
+  }
+
+  a#btn_colorrun:after {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		bottom: -10px;
+		left: 5%;
+		height: 110%;
+		width: 90%;
+		opacity: 0.8;
+		border-radius: 50px;
+		background: inherit;
+		-webkit-filter: blur(10px);
+	  -moz-filter: blur(10px);
+	  -o-filter: blur(10px);
+	  -ms-filter: blur(10px);
+	  filter: blur(10px);
+		-webkit-transition: all 0.2s;
+		transition: all 0.2s;
+      }
+
+a#btn_colorrun:hover::after {
+		-webkit-filter: blur(4px);
+		-moz-filter: blur(4px);
+		-o-filter: blur(4px);
+		-ms-filter: blur(4px);
+		filter: blur(4px);
+		width: 100%;
+		bottom: -5px;
+		left: 0;
+		}
+
+
+		.draw-border {
+		  box-shadow: inset 0 0 0 6px white;
+		  color: #E5ADC1;
+		  transition: color 0.25s 0.0833333333s;
+		  position: relative;
+			text-decoration: none;
+			background: none;
+			border: none;
+			cursor: pointer;
+			line-height: 1.5;
+			font: 700 1.2rem 'Roboto Slab', sans-serif;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			letter-spacing: 0.05rem;
+			display:block;
+			margin-top: 100px;
+		}
+		.draw-border::before, .draw-border::after {
+		  border: 0 solid transparent;
+		  box-sizing: border-box;
+		  content: '';
+		  pointer-events: none;
+		  position: absolute;
+		  width: 0;
+		  height: 0;
+		  bottom: 0;
+		  right: 0;
+		}
+		.draw-border::before {
+		  border-bottom-width: 6px;
+		  border-left-width: 6px;
+		}
+		.draw-border::after {
+		  border-top-width: 6px;
+		  border-right-width: 6px;
+		}
+		.draw-border:hover {
+		  color: #9E073E;
+		}
+		.draw-border:hover::before, .draw-border:hover::after {
+		  border-color: #9E073E;
+		  transition: border-color 0s, width 0.25s, height 0.25s;
+		  width: 100%;
+		  height: 100%;
+		}
+		.draw-border:hover::before {
+		  transition-delay: 0s, 0s, 0.25s;
+		}
+		.draw-border:hover::after {
+		  transition-delay: 0s, 0.25s, 0s;
+		}
+
+		.draw-border:focus {
+					  outline: 2px dotted black;
+
+		}
+
+		a#btn_tesla {
+			font-family: "Rubik";
+			font-size: 30px;
+			letter-spacing: 2px;
+			color: white;
+			text-decoration: none;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-left: 40px;
+			padding-right: 40px;
+			background-color: #B20000;
+			display: inline-block;
+			margin-top: 60px;
+			border-radius: 20px;
+			transition: all .5s;
+
+		}
+
+		a#btn_tesla:hover {
+			border-radius: 80px;
+
+		}
+
+		a#btn_npr{
+			display: inline-block;
+			margin-top: 90px;
+			font-family: "Merriweather";
+
+			font-size: 60px;
+			letter-spacing: .1em;
+			text-decoration: none;
+			transition: color 3s, width 0.25s, height 0.25s;
+		}
+
+
+    a#btn_npr #n{
+			color:#FFE7DF
+		}
+
+		a#btn_npr #p{
+			color:#E3E3E3
+		}
+
+		a#btn_npr #r{
+			color:#DBDEF5
+		}
+
+		a#btn_npr:hover #n {
+			color: #FA5019;
+			transition: color .5s
+
+		}
+
+		a#btn_npr:hover #p {
+	 	 color: black;
+	 	 transition: color 1s
+
+	  }
+
+		a#btn_npr:hover #r {
+		 color: #5D6CCD;
+		 transition: color 1.5s
+
+		}
+
+		a#btn_ibm {
+			display: inline-block;
+			margin-top: 90px;;
+			color: white;
+			font-family: "Ibm Plex Serif";
+			text-decoration: none;
+			font-size: 40px;
+			font-weight: bolder;
+			box-sizing: border-box;
+			background-color: black;
+			transition: all .5s;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+
+		a#btn_ibm:hover {
+			color: black;
+			background-color: white;
+		}
+
+		a#btn_kittens {
+			color: white;
+			text-decoration: none;
+			display: inline-block;
+			font-family: "Poppins";
+			font-size: 30px;
+			line-height: 40px;
+			background-color: #FFB191;
+			padding: 30px 20px;
+			margin-top: 60px;
+			border-radius: 10px;
+		}
+
+		a#btn_kittens:hover{
+			-webkit-filter: blur(7px);
+			-moz-filter: blur(7px);
+			-o-filter: blur(7px);
+			-ms-filter: blur(7px);
+			filter: blur(7px);
+			-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+
+		a#btn_velocity{
+			color: black;
+			font-family: "Libre Franklin";
+			color: black;
+			text-decoration: none;
+			font-size: 30px;
+			margin-top: 100px;
+			display: inline-block;
+			transition: all .5s;
+			font-weight: lighter;
+
+		}
+
+		a#btn_velocity:hover{
+			color: black;
+			font-weight: bold;
+			-ms-transform: skewX(-15deg); /* IE 9 */
+    -webkit-transform: skewX(-15deg); /* Safari */
+    transform: skewX(-15deg);
+		}
+
+		a#btn_craigslist{
+			color: blue;
+			font-family:"Times New Roman";
+			font-size: 30px;
+			display: inline-block;
+			margin-top: 100px;
+			transition: all .7s;
+			text-decoration: none;
+		}
+
+		a#btn_craigslist:hover{
+			letter-spacing: 2px;
+		}
+
+		a#btn_fitbit{
+			display: inline-block;
+			margin-top: 95px;
+			color: #21E8D9;
+			font-size: 50px;
+			text-decoration: none;
+			font-family: "Raleway";
+			font-weight: 1000;
+		}
+
+		a#btn_fitbit:hover{
+			font-weight:100;
+		}
+
+
+		a#btn_lyft{
+			color: white;
+			font-family: "Montserrat";
+			box-sizing: border-box;
+			padding: 15px;
+			background-color: #EC4BCA;
+			display: inline-block;
+			margin-top: 100px;
+			font-size: 20px;
+			text-decoration: none;
+			letter-spacing: 3px;
+			font-weight: 1000;
+			border-radius: 100px;
+			transition: all 1s;
+		}
+
+
+		a#btn_lyft:hover{
+			margin-top:50px;
+		}
+
+		a#btn_kors{
+			color: black;
+			font-family: "Montserrat";
+			box-sizing: border-box;
+			padding: 15px;
+			background-color: white;
+			border: 2px solid black;
+			border-radius: 50px;
+			text-decoration: none;
+			display: inline-block;
+			margin-top: 100px;
+			letter-spacing: 1px;
+			padding-top: 16px;
+			transition: all 1s
+		}
+
+		a#btn_kors:hover{
+			color: white;
+			background-color:black;
+		}
+
+		</style>
+	</head>
+	<body>
+
+		<div id="main_content">
+
+			<h1>Button Styling &mdash; Maddy Angstreich</h1>
+
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.amazon.com" target="_blank" id="btn_amazon"><i class="fa fa-amazon"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter">twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo">indiegogo</a>
+			</div>
+
+      <div class="button_container">
+        <a href="http://www.ideo.com" target="_blank" id="btn_ideo"><span>IDEO  </span></a>
+      </div>
+
+      <div class="button_container">
+        <a href="http://sardellastl.com/" target="_blank" id="btn_sardella"><span>SARDELLA</span></a>
+      </div>
+
+
+      <div class="button_container">
+      <div id="container">
+    <button class="electrabike">
+      <div class="circle">
+        <span class="icon arrow"></span>
+      </div>
+      <p class="button-text">ElectraBike</p>
+    </button>
+  </div>
+</div>
+
+    <div class="button_container">
+      <a href="https://thecolorrun.com/" target="_blank" id="btn_colorrun"><span>the color run</span></a>
+    </div>
+<div class="button_container">
+			<a href="https://www.pottermore.com/" target="_blank" class="draw-border">Pottermore</button>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.tesla.com/" target="_blank" id="yoo"></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.tesla.com/" target="_blank" id="btn_tesla">TESLA</a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.tesla.com/" target="_blank" id="btn_npr"><span id="n">N</span><span id="p">P</span><span id="r">R</span></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.ibm.com/us-en/" target="_blank" id="btn_ibm"><span>IBM</span></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://explodingkittens.com/" target="_blank" id="btn_kittens"><span>exploding</br>kittens</span></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.velocity.com/" target="_blank" id="btn_velocity"><span>Velocity</span></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://stlouis.craigslist.org/" target="_blank" id="btn_craigslist"><span>craigslist</span></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.fitbit.com/home" target="_blank" id="btn_fitbit"><span>fitbit</span></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.fitbit.com/home" target="_blank" id="btn_lyft"><span>lyft</span></a>
+		</div>
+
+		<div class="button_container">
+			<a href="https://www.michaelkors.com/" target="_blank" id="btn_kors"><span>MICHAEL KORS</span></a>
+		</div>
+
+
+		</div>
+
+
+
+
+
+
+
+		</div>
+	</body>
+</html>
